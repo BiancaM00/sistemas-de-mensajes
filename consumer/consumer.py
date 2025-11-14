@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import os, time, json, logging
 from datetime import datetime, timezone
 import pika
