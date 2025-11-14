@@ -1,0 +1,1 @@
+CREATE TABLE weather_logs(id SERIAL PRIMARY KEY);
