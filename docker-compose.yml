@@ -58,7 +58,7 @@ services:
       RABBITMQ_HOST: rabbitmq
       RABBITMQ_USER: rabbit
       RABBITMQ_PASS: rabbitpass
-      POSTGRES_HOST: postgres
+      POSTGRES_HOST: pg
       POSTGRES_DB: weather
       POSTGRES_USER: pguser
       POSTGRES_PASS: pgpass
