@@ -23,20 +23,10 @@ Sistema de mensajería que permite la comunicación asíncrona entre el producto
 Carpeta destinada para futuras integraciones como Grafana o Prometheus.
 Estructura del Proyecto
 sistema de mensajes/
-│
-├── arquitectura/
-│   └── architecture_visual.png
-│
-├── consumidor/
-│   ├── Dockerfile
-│   ├── consumer.py
-│   └── requirements.txt
-│
-├── productor/
-│   ├── Dockerfile
-│   ├── producer.py
-│   └── requirements.txt
-│
-├── README.md
-├── docker-compose.yml
-└── init_db.sql
+
+ * arquitectura:architecture_visual.png
+ * consumidor: Dockerfile, consumer.py, requirements.txt
+ * productor: Dockerfile, producer.py, requirements.txt
+ *README.md
+ * docker-compose.yml
+ * init_db.sql
