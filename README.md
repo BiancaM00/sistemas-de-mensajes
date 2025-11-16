@@ -24,9 +24,9 @@ Carpeta destinada para futuras integraciones como Grafana o Prometheus.
 Estructura del Proyecto
 sistema de mensajes/
 
- * arquitectura:architecture_visual.png
+ * arquitectura: architecture_visual.png
  * consumidor: Dockerfile, consumer.py, requirements.txt
  * productor: Dockerfile, producer.py, requirements.txt
- *README.md
+ * README.md
  * docker-compose.yml
  * init_db.sql
