@@ -5,9 +5,9 @@ CREATE TABLE IF NOT EXISTS weather_logs (
   temperature DOUBLE PRECISION,
   humidity DOUBLE PRECISION,
   pressure DOUBLE PRECISION,
-  status TEXT NOT NULL,        -- 'ok' o 'error'
-  error_message TEXT,          -- mensaje de validación si falla
-  raw_payload JSONB,           -- JSON crudo recibido
+  status TEXT NOT NULL,     
+  error_message TEXT,       
+  raw_payload JSONB,       
   created_at TIMESTAMPTZ DEFAULT now()
 );
 
